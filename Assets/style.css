@@ -30,3 +30,31 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+
+
+
+
+
+@media screen and (max-width: 980px) {
+  .height1 {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .text {
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px; 
+  }
+  
+  .me {
+    max-width: 25%; 
+    max-height: 150px;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+/* NO ADJUSTMENT NECESSARY FOR 768PX BECAUSE CSS MATCHES 980PX */
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* NO ADJUSTMENT NECESSARY FOR 575PX BECAUSE CSS MATCHES 980PX */

@@ -126,7 +126,7 @@ function allDone() {
     // Heading:
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
-    createH1.textContent = "FINISHED!"
+    createH1.textContent = " YOUR FINISHED!"
 
     questionsDiv.appendChild(createH1);
 

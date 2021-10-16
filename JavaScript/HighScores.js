@@ -5,7 +5,7 @@ var startOver = document.querySelector("#startOver");
 
 // Event listener to reset scores 
 reset.addEventListener("click", function () {
-    localStorage.reset();
+    localStorage.clear();
     location.reload();
 });
 // Retreives local stroage 

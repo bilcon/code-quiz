@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,29 +13,24 @@
     <!-- Link to highscores -->
     <a href="HighScores.html">View Your Highscores</a>
     <!-- This is a wrapper -->
-    <div id="wrapper">
+    <div id="container">
         <!-- Div for timer -->
         <div id="currentTime"></div>
         <!-- Div for quiz content -->
         <div id="questionsDiv">
-            <h1>Coding Quiz Challenge</h1>
+            <h1>JavaScript<br>Coding Quiz Challenge</h1>
             <p>Try to answer the following coding questions within the time limit.
                   <br>
               Incorrect answers will be penalize by five seconds reducing your score.
                   <br>
-              Keep track of your score HighScores!
+              Keep track of your current score compared to HighScores!
             </p>
               <ul id="choicesUl"></ul>
             <!-- Buttons -->
-            <button id="startTime">Begin Quiz</button>
+            <button id="beginTimer">Begin Quiz</button>
         </div>
-
     </div>
-
-
-    <script src="questions.js"></script>
-
-
+    <script src="./JavaScript/script.js"></script>
 </body>
 
 </html>

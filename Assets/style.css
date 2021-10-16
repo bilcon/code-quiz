@@ -1,29 +1,41 @@
-        
-        #wrapper {
-          position: absolute;
-          left: 30%;
-          top: 20%;
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #container {
+     
           width: 600px;
-          height: 500px;
+          height: 400px;
           border: 2px solid rgb(5, 109, 39);
           border-radius: 10px;
           text-align: center;
-      }
-      #startTime {
+          font-size: 18px;
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: space-evenly;
+        }
+
+        #beginTimer {
           background-color: rgb(5, 109, 39);
           padding: 15px 32px;
-          font-size: 25px;
+          font-size: 20px;
           color: white;
-      }
-      #questionsDiv {
+          display: inline-block;
+          flex-direction: row;
+        }
+
+        #questionsDiv {
           margin: 20px;
-      }
+        }
 
-      #currentTime {
+        #currentTime {
           float: center;
-      }
+        }
 
-      #goBack {
+        #startOver {
           background-color: rgb(5, 109, 39);
           position: relative;
           padding: 10px;
@@ -34,11 +46,11 @@
           width: auto;
           text-align: center;
           text-decoration: none;
-      }
+        }
 
 
 
-      #clear {
+        #reset {
           background-color: rgb(5, 109, 39);
           position: relative;
           padding: 10px;
@@ -47,51 +59,52 @@
           top: 30%;
           right: 25%;
           text-align: center;
-      }
+        }
 
-      button {
-          border-radius: 20px;
-      }
+        button {
+          border-radius: 30px;
+        }
 
-      textarea {
+        textarea {
           width: 90%;
           margin: 20px;
-      }
+        }
 
-      #Submit {
+        #Submit {
           background-color: rgb(5, 109, 39);
-          margin-left: 33%;
+          margin-left: 3%;
           padding: 15px 32px;
           font-size: 18px;
           color: white;
-      }
+        }
 
-      label {
+        label {
           margin-right: 10px;
-      }
-      input {
+        }
+
+        input {
           margin-bottom: 20px;
           width: 50%;
           border: 1px solid lightgray;
-      }
+        }
 
-      h1 {
+        h1 {
           text-align: center;
-      }
+        }
 
-      li {
+        li {
           background-color: rgb(5, 109, 39);
           margin-top: 10px;
           padding: 5px 15px;
           width: 80%;
-          font-size: 18px;
+          font-size: 24px;
           color: white;
-      }
+        }
 
-      #createDiv {
+        #createDiv {
           margin-top: 20px;
           border-top: 1px solid lightgray;
-      }
+        }
 
       /* Start media queries */
       /* A Media Query max-width: 786px */
@@ -101,8 +114,8 @@
           max-width: 786px;
       }
   /* Resized main-content to fit 786px  */
-  #wrapper {
-      position: absolute;
+  #container {
+      position: relative;
       left: 20%;
   }
 
@@ -130,7 +143,7 @@
           min-width: 640px;
       }
   /* Resized main-content to fit 640px  */
-  #wrapper {
+  #container {
       position: absolute;
       left: 10%;
   }

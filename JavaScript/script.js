@@ -126,7 +126,7 @@ function allDone() {
     // Heading:
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
-    createH1.textContent = " YOUR FINISHED!"
+    createH1.textContent = " YOU'RE FINISHED!"
 
     questionsDiv.appendChild(createH1);
 
@@ -173,9 +173,9 @@ function allDone() {
     createSubmit.addEventListener("click", function () {
         var initials = createInput.value;
 
-        if (initials === null) {
+        if (initials === null || initials === "") {
 
-            console.log("No value entered!");
+            window.alert("You must enter Initials!");
 
         } else {
             var finalScore = {

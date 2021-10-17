@@ -10,7 +10,6 @@
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 #beginTimer {
@@ -18,8 +17,8 @@
   padding: 15px 32px;
   font-size: 20px;
   color: white;
-  margin: 10px 250px;
-  flex-direction: row;
+  margin: 10px auto;
+  flex-direction: column;
 }
 
 #questionsDiv {
@@ -60,19 +59,20 @@ button {
 
 #Submit {
   background-color: rgb(5, 109, 39);
-  margin: auto;
+  margin: 20px auto;
   padding: 15px 32px;
   font-size: 18px;
   color: white;
 }
 
 label {
-  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 input {
-  margin-bottom: 20px;
-  width: 50%;
+  margin: auto;
+  width: 25%;
   border: 1px solid lightgray;
 }
 
@@ -81,9 +81,11 @@ h1 {
 }
 
 ul  {
-  margin: 10px 100px 25px;
+  margin: 0px 100px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  
 }
 
 li {
@@ -98,17 +100,19 @@ li {
   border-top: 1px solid lightgray;
 }
 
-/* Start media queries */
-/* A Media Query max-width: 786px */
-@media screen and (max-width: 786px) {
-
-  
-
-  }
-      
 /* A Media Query max-width: 640px */
 @media screen and (max-width: 640px) {
 
+  h1 {
+    font-size: medium;
+    text-align: center;
+  }
 
-   
+  #Submit {
+    margin: 20px auto;
+    padding: 7px 25px;
+    font-size: 14px;
+    color: white;
+  }
+
 }

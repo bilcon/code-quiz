@@ -17,6 +17,10 @@
 
 # Below are the GitHub Pages published link and the GitHub Repository address:
 
+https://bilcon.github.io/code-quiz/
+
+https://github.com/bilcon/code-quiz
+
 
 # Here is a screen shot of the webpage when deployed:
 
